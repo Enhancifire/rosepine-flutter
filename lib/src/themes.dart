@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rosepine/src/colors.dart';
 import 'package:rosepine/src/typography.dart';
 
-ThemeData get lightTheme {
+ThemeData get rosepineLightTheme {
   final colors = LightAppColors();
   final color = ColorScheme.fromSeed(
     seedColor: colors.primary,
@@ -24,7 +24,7 @@ ThemeData get lightTheme {
   );
 }
 
-ThemeData get darkTheme {
+ThemeData get rosepineDarkTheme {
   final colors = DarkAppColors();
   final color = ColorScheme.fromSeed(
     seedColor: colors.primary,
